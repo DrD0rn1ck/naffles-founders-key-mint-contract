@@ -7,6 +7,15 @@ import "@openzeppelin/contracts/security/ReentrancyGuard.sol";
 import "@openzeppelin/contracts/utils/Address.sol";
 import "@openzeppelin/contracts/utils/cryptography/MerkleProof.sol";
 
+/* $$\   $$\            $$$$$$\   $$$$$$\  $$\                     
+   $$$\  $$ |          $$  __$$\ $$  __$$\ $$ |                    
+   $$$$\ $$ | $$$$$$\  $$ /  \__|$$ /  \__|$$ | $$$$$$\   $$$$$$$\ 
+   $$ $$\$$ | \____$$\ $$$$\     $$$$\     $$ |$$  __$$\ $$  _____|
+   $$ \$$$$ | $$$$$$$ |$$  _|    $$  _|    $$ |$$$$$$$$ |\$$$$$$\  
+   $$ |\$$$ |$$  __$$ |$$ |      $$ |      $$ |$$   ____| \____$$\ 
+   $$ | \$$ |\$$$$$$$ |$$ |      $$ |      $$ |\$$$$$$$\ $$$$$$$  |
+   \__|  \__| \_______|\__|      \__|      \__| \_______|\_______/  */
+                                                                
 error CallerIsContract(address address_);
 error ExceedingMaxTokensPerWallet(uint16 maxPerWallet);
 error ExceedingAllowlistAllowance(uint16 allowlistAllowance);
